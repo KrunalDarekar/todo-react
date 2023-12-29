@@ -26,12 +26,14 @@ const TodoInput = ({toSetData, data}) => {
                 type="text" 
                 value={taskValue}
                 onChange={ (e) => setTaskValue(e.target.value)}
+                placeholder="task"
             />
             <br />
             <input 
                 type="text" 
                 value={description}
                 onChange={ (e) => setDescription(e.target.value)}
+                placeholder="description"
             />
             <br />
             <input 
